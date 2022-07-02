@@ -159,6 +159,16 @@ button {
   font-weight: var(--font-bold);
 }
 
+.nav__logo-img {
+  width: 0.75rem;
+}
+
+.nav__toggle {
+  display: inline-flex;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
 /* Show menu */
 
 /* Change background header */
