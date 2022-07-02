@@ -195,6 +195,18 @@ button {
   font-size: var(--h2-font-size);
   transition: 0.3s;
 }
+
+.nav__link:hover {
+  color: #fff;
+}
+
+.nav__close {
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
 /* Show menu */
 
 /* Change background header */
