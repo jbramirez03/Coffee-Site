@@ -133,7 +133,7 @@ button {
 /*=============== HEADER & NAV ===============*/
 .header {
   width: 100%;
-  background: #000;
+  background: transparent;
   position: fixed;
   top: 0;
   left: 0;
@@ -231,6 +231,20 @@ button {
     hsla(206, 5%, 24%, 1) -4%,
     hsla(206, 12%, 12%, 1) 46%
   );
+}
+
+.home__content {
+  position: relative;
+}
+
+.home__title,
+.home__data-title {
+  color: #fff;
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  margin-bottom: 1.5rem;
 }
 
 /* Scroll image animate */
