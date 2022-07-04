@@ -281,9 +281,22 @@ button {
   left: 0;
   right: 0;
   margin: 0 auto;
+  animation: scroll 3s infinite;
 }
 
 /* Scroll image animate */
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 /*=============== BUTTON ===============*/
 
