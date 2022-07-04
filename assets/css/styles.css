@@ -359,6 +359,29 @@ button {
 
 /*=============== PRODUCTS ===============*/
 
+.products__filters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.products__line {
+  position: relative;
+}
+
+.products__line::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  background-color: var(--text-color-light);
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
 /* Active link products */
 
 /*=============== QUALITY ===============*/
