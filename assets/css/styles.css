@@ -314,6 +314,16 @@ button {
 
 /*=============== BUTTON ===============*/
 
+.button {
+  display: inline-block;
+  background-color: var(--black-color);
+  color: #fff;
+  padding: 1rem 1.75rem;
+  border-radius: 0.25rem;
+  font-size: var(--normal-font-size);
+  text-transform: uppercase;
+}
+
 /*=============== SPECIALTY ===============*/
 
 /*=============== PRODUCTS ===============*/
