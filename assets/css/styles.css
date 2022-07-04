@@ -382,6 +382,25 @@ button {
   margin: auto 0;
 }
 
+.products__item {
+  cursor: pointer;
+}
+
+.products__title {
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.products__stock {
+  font-size: var(--small-font-size);
+}
+
+.products__content {
+  grid-template-columns: 200px;
+  justify-content: center;
+}
+
 /* Active link products */
 
 /*=============== QUALITY ===============*/
