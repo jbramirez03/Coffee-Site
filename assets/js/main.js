@@ -45,6 +45,14 @@ window.addEventListener('scroll', scrollHeader);
 
 /*=============== MIXITUP FILTER PRODUCTS ===============*/
 
+let mixerProducts = mixitup('.products__content', {
+    selectors: {
+        target: '.products__card'
+    },
+    animation: {
+        duration: 300
+    }
+});
 
 /* Default filter products */
 
