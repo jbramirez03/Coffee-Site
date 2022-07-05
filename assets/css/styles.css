@@ -439,6 +439,11 @@ button {
   position: absolute;
   right: 1rem;
   top: -1.25rem;
+  box-shadow: 0 4px 12px hsla(206, 4%, 4%, 0.2);
+}
+
+.products__card:hover .products__img {
+  transform: translateY(-0.25rem);
 }
 
 /* Active link products */
