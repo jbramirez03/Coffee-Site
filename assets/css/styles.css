@@ -534,6 +534,17 @@ button {
 
 /*=============== LOGOS ===============*/
 
+.logo {
+  background-color: #fff;
+}
+
+.logo__container {
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 2.5rem 2rem;
+}
+
 /*=============== BLOG ===============*/
 
 /*=============== FOOTER ===============*/
