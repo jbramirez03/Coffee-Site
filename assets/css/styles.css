@@ -874,6 +874,16 @@ button {
     top: 0;
     margin: auto;
   }
+
+  .products__filters {
+    grid-template-columns: repeat(3, 200px);
+  }
+
+  .quality__content,
+  .footer__content {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 }
 
 /* For large devices */
