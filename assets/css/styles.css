@@ -1019,6 +1019,16 @@ button {
   .logo__img {
     width: 110px;
   }
+
+  .blog__container {
+    padding-bottom: 5rem;
+  }
+
+  .blog__content {
+    grid-template-columns: repeat(2, 450px);
+    column-gap: 5rem;
+    padding-top: 2rem;
+  }
 }
 
 /* Alternative code, for larger screens */
