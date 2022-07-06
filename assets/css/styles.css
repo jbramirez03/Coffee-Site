@@ -789,6 +789,16 @@ button {
     grid-template-columns: repeat(2, 200px);
     column-gap: 3rem;
   }
+
+  .products__content {
+    grid-template-columns: repeat(2, 200px);
+    padding-bottom: 3rem;
+  }
+
+  .blog__content {
+    grid-template-columns: 450px;
+    justify-content: center;
+  }
 }
 
 /* For large devices */
