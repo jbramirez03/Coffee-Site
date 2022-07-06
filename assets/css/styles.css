@@ -858,6 +858,22 @@ button {
   .scroll-header .active-link::after {
     background-color: var(--title-color);
   }
+
+  .home {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    position: relative;
+  }
+
+  .home__content {
+    position: initial;
+  }
+
+  .home__scroll {
+    bottom: 0;
+    top: 0;
+    margin: auto;
+  }
 }
 
 /* For large devices */
