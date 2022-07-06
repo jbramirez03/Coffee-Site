@@ -681,6 +681,10 @@ button {
   border-bottom: 1px solid var(--text-color);
 }
 
+.footer__title {
+  color: #fff;
+}
+
 .footer__subtitle {
   color: #fff;
   font-size: var(--h2-font-size);
@@ -798,6 +802,10 @@ button {
   .blog__content {
     grid-template-columns: 450px;
     justify-content: center;
+  }
+
+  .footer__newsletter {
+    width: 350px;
   }
 }
 
