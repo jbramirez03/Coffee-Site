@@ -784,6 +784,13 @@ button {
 
 /* For medium devices */
 
+@media screen and (min-width: 576px) {
+  .specialty__category {
+    grid-template-columns: repeat(2, 200px);
+    column-gap: 3rem;
+  }
+}
+
 /* For large devices */
 
 /* Alternative code, for larger screens */
